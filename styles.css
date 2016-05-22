@@ -1,0 +1,57 @@
+/*Please note that any photos used are not mine. They are stock photos which are free to use to the best of my knowledge.*/
+
+body {
+    background-color: #46373c;
+    background-image: url("flower.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: #c96653;
+    padding: 0 0 0 55%;
+    font-size: 90px;
+}
+
+.foot {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+
+
+@media (max-width: 1024px) {
+    body {
+        background-color: #46373c;
+        background-image: url("portraitFlower.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: cursive;
+        color: firebrick;
+        padding: 0 0 0 0;
+        font-size: 90px;
+    }
+    
+    .foot {
+        position: absolute;
+        text-align: center;
+    }
+}
